@@ -35,7 +35,9 @@ function createUserCard(user) {
           <li><strong>Repos:&nbsp;</strong>${user.public_repos}</li>
         </ul>
         <ul>
-          <li><strong>LinkedIn: </strong>${user.linkedin_profile}</li>
+
+          <li><strong>LinkedIn: </strong><a href="${user.linkedin_profile_url}">LinkedIn Profile</a></li>
+
           <li><strong>Location:&nbsp;</strong>${user.location}</li>
         </ul>
       </div>
